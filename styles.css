@@ -9,11 +9,14 @@ body {
     font-family: sans-serif;
     font-size: 1em;
     line-height: 1.5;
-    padding-top: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+}
+
+.dark {
+    background: #333;    
 }
 
 .container {
@@ -76,5 +79,23 @@ td:first-child {
     background: #eee;
 }
 
-.disabled:hover { background: #eee; }
+.disabled:hover { background: #eee }
 
+.frame {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.frame--desktop {
+	width: 1440px;
+    height: 1024px;
+}
+
+.frame--mobile {
+    width: 375px;
+    height: 668px;
+}
+
+.frame img {
+	object-fit: fill;
+}
