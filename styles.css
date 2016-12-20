@@ -96,6 +96,7 @@ td:first-child {
 
 td:nth-child(2) {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQYV2NkQAI7duz4zwjjgzgeHh6MYAEYB8RmROaABADpDQ8sNhe+PgAAAABJRU5ErkJggg==);
+    background-color: #d4d4d4;
 }
 
 .text-centered  {
