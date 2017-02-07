@@ -146,4 +146,5 @@ td:nth-child(2) {
 
 .frame img {
 	object-fit: fill;
+    max-width: 100%;
 }
